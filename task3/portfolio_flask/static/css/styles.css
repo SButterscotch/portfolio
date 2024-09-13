@@ -1,0 +1,115 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Black background */
+    color: white; /* White text */
+    margin: 0;
+    padding: 0;
+}
+
+/* General section styling */
+section {
+    padding: 20px;
+}
+
+/* Bio Section Styling */
+.bio-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    text-align: center;
+}
+
+.bio-text {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.bio-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.bio-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.home-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    text-align: center;
+}
+
+.home-text {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.home-text h1 {
+    font-size: 5rem;
+}
+
+/* Header and Navigation Styling */
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white; /* White text for navigation links */
+    text-decoration: none;
+}
+
+header nav ul li a.active {
+    font-weight: bold;
+    color: #e94e77; /* Highlight active page */
+}
+
+header nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
